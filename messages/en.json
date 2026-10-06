@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "title": "Moïse Tsiorinambinina — Software engineer",
+    "description": "Portfolio of Moïse Tsiorinambinina, software engineer and mobile application developer (Flutter, Android SDK) based in Antananarivo, Madagascar.",
+    "notFoundTitle": "Page not found"
+  },
+  "common": {
+    "skipToContent": "Skip to content",
+    "primaryNav": "Main navigation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "toggleTheme": "Switch between light and dark mode",
+    "switchLanguage": "Lire en français",
+    "backToTop": "Back to top"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "career": "Career",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "I am",
+    "titles": [
+      "Software engineer",
+      "Mobile application developer",
+      "Technology enthusiast"
+    ],
+    "downloadCV": "Download my resume",
+    "contactMe": "Contact me"
+  },
+  "about": {
+    "title": "Who am I?",
+    "bio": [
+      "Self-taught developer and a graduate of the Ecole Nationale d'Informatique of Fianarantsoa, Madagascar. I have solid experience in the design, development, and deployment of applications.",
+      "Over the past four years, I've acquired solid programming expertise in Dart, TypeScript, Java and Kotlin. I have primarily focused on mobile development, utilizing the Flutter framework and Android SDK.",
+      "Passionate about programming, I regularly dedicate time to staying updated with the latest technological trends and exploring new innovations."
+    ],
+    "facts": {
+      "location": "Based in",
+      "education": "Education",
+      "languages": "Languages",
+      "mobile": "Mobile"
+    }
+  },
+  "career": {
+    "title": "Career",
+    "professional": "Professional",
+    "professionalIntro": [
+      "My career path in IT has been marked by a number of enriching experiences, both through jobs and internships. These have enabled me to develop solid skills in this constantly evolving field.",
+      "Here are just a few of the professional experiences I've acquired over the last few years:"
+    ],
+    "academic": "Academic",
+    "academicIntro": [
+      "My academic career in IT has been defined by rigorous training, particularly at the Ecole Nationale d'Informatique (ENI) in Fianarantsoa. Prior to that, I earned a scientific baccalaureate, which sparked and solidified my interest in science and technology."
+    ],
+    "since": "Since {date}",
+    "contract": {
+      "permanent": "Permanent",
+      "freelance": "Freelance",
+      "internship": "Internship"
+    },
+    "experiences": {
+      "consulting": {
+        "title": "Consultant developer",
+        "bullets": [
+          "Application maintenance",
+          "Development of new functionalities",
+          "Integration of visuals in line with mock-ups and the user experience",
+          "Design and development of APIs"
+        ]
+      },
+      "neoshore": {
+        "title": "Flutter developer",
+        "bullets": [
+          "Collaborate with the team to design and implement new platform functionalities",
+          "Apply modifications in alignment with technical specifications and requirements",
+          "Monitor application logs to ensure optimal performance and early issue detection",
+          "Maintain a high-quality user experience through continuous improvements",
+          "Enhance performance and resolve bugs to ensure smooth application functionality",
+          "Manage content updates and oversee the publication of new versions on the Play Store and App Store"
+        ]
+      },
+      "androidFreelance": {
+        "title": "Android application developer",
+        "bullets": [
+          "Design and development of a clinic management application",
+          "Development of a dating application for the Comorian and Mahoran community"
+        ]
+      },
+      "onnOlep": {
+        "title": "Systems and network administrator",
+        "bullets": [
+          "Administration and configuration of Linux and Windows servers",
+          "Automation of recurring tasks using Bash, Shell and PHP scripts",
+          "Management of a computer park containing 120 workstations"
+        ]
+      },
+      "emaya": {
+        "title": "Android application developer",
+        "bullets": ["Development of a job search application"]
+      }
+    },
+    "education": {
+      "master": {
+        "title": "Professional master",
+        "bullets": [
+          "In-depth training in web, mobile and desktop programming",
+          "Development of network programming skills",
+          "Advanced administration and security of computer systems and networks"
+        ]
+      },
+      "licence": {
+        "title": "Professional license",
+        "bullets": [
+          "Training in the basics of algorithms and programming",
+          "Training in the administration of computer systems and networks",
+          "Introduction to relational databases"
+        ]
+      },
+      "bac": {
+        "title": "BAC Option C",
+        "bullets": []
+      }
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "intro": [
+      "Throughout my career, I have acquired and honed a diverse set of skills in IT development, spanning various programming languages, frameworks, and tools.",
+      "These competencies allow me to design and implement technical solutions that are tailored to the unique requirements of each project."
+    ],
+    "categories": {
+      "languages": "Programming languages",
+      "frameworks": "Frameworks",
+      "databases": "Databases",
+      "tools": "Tools and APIs"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "intro": [
+      "I'm pleased to present a selection of my recent development projects.",
+      "Each of these projects has used a variety of technologies and skills to solve a variety of problems."
+    ],
+    "githubIntro": "I also invite you to explore my ",
+    "githubLink": "GitHub",
+    "githubEnd": ", where I share projects and open-source code.",
+    "viewOn": "View on",
+    "items": {
+      "workcode": {
+        "title": "Contrat du travail Malagasy",
+        "description": "An application to explore the Malagasy labour code."
+      },
+      "quadient": {
+        "title": "Quadient Scan",
+        "description": "Mobile application for collecting company information."
+      },
+      "constitution": {
+        "title": "Constitution Malagasy Explorer",
+        "description": "Web and mobile application to explore the Constitution of Madagascar."
+      },
+      "feelin": {
+        "title": "Feelin",
+        "description": "Video analysis platform based on facial expressions and a series of questions."
+      },
+      "portfolio": {
+        "title": "Portfolio",
+        "description": "This website where I present my career path, my skills and my personal and professional projects."
+      },
+      "taskmanager": {
+        "title": "Task manager",
+        "description": "A simple task management application useful for learning Flutter best practices."
+      }
+    }
+  },
+  "contact": {
+    "title": "Let's build beautiful things!",
+    "text": "If you'd like us to work together, please don't hesitate to contact me.",
+    "email": "E-mail",
+    "chat": "Chat",
+    "call": "Call",
+    "copyright": "© {year} Moïse T."
+  },
+  "notFound": {
+    "title": "This page doesn't exist.",
+    "back": "Back to home"
+  }
+}
