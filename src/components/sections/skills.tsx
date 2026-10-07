@@ -15,12 +15,12 @@ export function Skills() {
         ))}
       </Reveal>
 
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="gap-4 sm:columns-2 lg:columns-3">
         {skillCategories.map((category, i) => (
           <Reveal
             key={category.id}
-            delay={i * 80}
-            className="rounded-2xl border border-border bg-surface p-6"
+            delay={(i % 3) * 80}
+            className="mb-4 break-inside-avoid rounded-2xl border border-border bg-surface p-6"
           >
             <h3 className="font-mono text-xs tracking-[0.14em] text-muted uppercase">
               {t(`categories.${category.id}`)}
