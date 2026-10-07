@@ -15,7 +15,6 @@ export const skillCategories: SkillCategory[] = [
       { name: "Dart", logo: logo("dart") },
       { name: "Java", logo: logo("java") },
       { name: "TypeScript", logo: logo("typescript") },
-      { name: "PHP", logo: logo("php") },
     ],
   },
   {
@@ -23,7 +22,6 @@ export const skillCategories: SkillCategory[] = [
     items: [
       { name: "Flutter", logo: logo("flutter") },
       { name: "Android SDK", logo: logo("android") },
-      { name: "Symfony", logo: logo("symfony") },
       { name: "Spring Boot", logo: logo("springboot") },
     ],
   },
