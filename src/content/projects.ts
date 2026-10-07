@@ -5,13 +5,7 @@ export type ProjectLink = {
 
 export type Project = {
   /** Clé dans `projects.items` (titre et description). */
-  id:
-    | "workcode"
-    | "quadient"
-    | "constitution"
-    | "feelin"
-    | "portfolio"
-    | "taskmanager";
+  id: "quadient" | "workcode" | "portfolio";
   /** Aperçu 2000×1600 dans `public/images/projects`. */
   image: string;
   stack: string[];
@@ -19,18 +13,6 @@ export type Project = {
 };
 
 export const projects: Project[] = [
-  {
-    id: "workcode",
-    image: "/images/projects/workcode.png",
-    stack: ["Dart", "Flutter", "SQLite", "Google AdMob", "GitHub", "Fastlane"],
-    links: [
-      {
-        kind: "apkpure",
-        url: "https://apkpure.com/fr/code-du-travail-malagasy/com.eightgroup.madagascar_workcoode",
-      },
-      { kind: "github", url: "https://github.com/mauyz/madagascar_workcode" },
-    ],
-  },
   {
     id: "quadient",
     image: "/images/projects/quadient.png",
@@ -47,37 +29,21 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: "constitution",
-    image: "/images/projects/constitution.png",
+    id: "workcode",
+    image: "/images/projects/workcode.png",
     stack: ["Dart", "Flutter", "SQLite", "Google AdMob", "GitHub", "Fastlane"],
     links: [
       {
         kind: "apkpure",
-        url: "https://apkpure.com/fr/constitution-malagasy-explorer/com.eightgroup.mauyz.constitution",
+        url: "https://apkpure.com/fr/code-du-travail-malagasy/com.eightgroup.madagascar_workcoode",
       },
-      { kind: "web", url: "https://constitutionmg.vercel.app/" },
-      {
-        kind: "github",
-        url: "https://github.com/mauyz/madagascar_constitution",
-      },
+      { kind: "github", url: "https://github.com/mauyz/madagascar_workcode" },
     ],
-  },
-  {
-    id: "feelin",
-    image: "/images/projects/feelin.png",
-    stack: ["Dart", "Flutter", "Java", "Firebase", "GraphQL", "REST API", "SQLite"],
-    links: [],
   },
   {
     id: "portfolio",
     image: "/images/projects/portfolio.png",
     stack: ["Dart", "Flutter", "SQLite", "GitHub"],
-    links: [{ kind: "github", url: "https://github.com/mauyz/portfolio-fluter" }],
-  },
-  {
-    id: "taskmanager",
-    image: "/images/projects/taskmanager.png",
-    stack: ["Dart", "Flutter", "SQLite", "GitHub"],
-    links: [{ kind: "github", url: "https://github.com/mauyz/task_manager_app" }],
+    links: [{ kind: "web", url: "https://moisedev.netlify.app/" }],
   },
 ];

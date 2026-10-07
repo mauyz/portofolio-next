@@ -100,7 +100,9 @@
       },
       "emaya": {
         "title": "Android application developer",
-        "bullets": ["Development of a job search application"]
+        "bullets": [
+          "Development of a job search application"
+        ]
       }
     },
     "education": {
@@ -150,29 +152,17 @@
     "githubEnd": ", where I share projects and open-source code.",
     "viewOn": "View on",
     "items": {
-      "workcode": {
-        "title": "Contrat du travail Malagasy",
-        "description": "An application to explore the Malagasy labour code."
-      },
       "quadient": {
         "title": "Quadient Scan",
         "description": "Mobile application for collecting company information."
       },
-      "constitution": {
-        "title": "Constitution Malagasy Explorer",
-        "description": "Web and mobile application to explore the Constitution of Madagascar."
-      },
-      "feelin": {
-        "title": "Feelin",
-        "description": "Video analysis platform based on facial expressions and a series of questions."
+      "workcode": {
+        "title": "Contrat du travail Malagasy",
+        "description": "An application to explore the Malagasy labour code."
       },
       "portfolio": {
-        "title": "Portfolio",
-        "description": "This website where I present my career path, my skills and my personal and professional projects."
-      },
-      "taskmanager": {
-        "title": "Task manager",
-        "description": "A simple task management application useful for learning Flutter best practices."
+        "title": "Flutter portfolio",
+        "description": "The Flutter Web version of my portfolio, where I present my career path, my skills and my personal and professional projects."
       }
     }
   },

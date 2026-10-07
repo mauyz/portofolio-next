@@ -41,14 +41,14 @@ export function Projects() {
         </p>
       </Reveal>
 
-      <div className="grid gap-6 md:grid-cols-2 lg:gap-8">
+      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project, i) => {
           const title = t(`items.${project.id}.title`);
           return (
             <Reveal
               as="article"
               key={project.id}
-              delay={(i % 2) * 100}
+              delay={i * 100}
               className="group flex flex-col overflow-hidden rounded-2xl border border-border bg-surface"
             >
               <div className="relative aspect-[5/4] overflow-hidden border-b border-border bg-white">
@@ -56,12 +56,12 @@ export function Projects() {
                   src={project.image}
                   alt={title}
                   fill
-                  sizes="(min-width: 1152px) 560px, (min-width: 768px) 50vw, 100vw"
+                  sizes="(min-width: 1152px) 360px, (min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
                   className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03] motion-reduce:transition-none"
                 />
               </div>
 
-              <div className="flex flex-1 flex-col p-6 md:p-8">
+              <div className="flex flex-1 flex-col p-6">
                 <h3 className="text-2xl leading-tight font-bold">{title}</h3>
                 <p className="mt-2 text-[17px] leading-relaxed text-pretty text-muted">
                   {t(`items.${project.id}.description`)}
@@ -70,7 +70,7 @@ export function Projects() {
 
                 {project.links.length > 0 && (
                   <div className="mt-auto flex flex-wrap items-center gap-2 pt-6">
-                    <span className="w-full font-mono text-xs tracking-[0.14em] text-muted uppercase sm:mr-1 sm:w-auto">
+                    <span className="w-full font-mono text-xs tracking-[0.14em] text-muted uppercase">
                       {t("viewOn")}
                     </span>
                     {project.links.map(({ kind, url }) => {

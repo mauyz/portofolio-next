@@ -152,29 +152,17 @@
     "githubEnd": ", où je partage des projets et des codes open source.",
     "viewOn": "Voir sur",
     "items": {
-      "workcode": {
-        "title": "Contrat du travail Malagasy",
-        "description": "Une application qui sert à explorer le code du travail malgache."
-      },
       "quadient": {
         "title": "Quadient Scan",
         "description": "Application mobile permettant de collecter des informations sur les entreprises."
       },
-      "constitution": {
-        "title": "Constitution Malagasy Explorer",
-        "description": "Application web et mobile qui permet d'explorer la Constitution de Madagascar."
-      },
-      "feelin": {
-        "title": "Feelin",
-        "description": "Plateforme d'analyse des vidéos basée sur les expressions faciales et une suite de questions."
+      "workcode": {
+        "title": "Contrat du travail Malagasy",
+        "description": "Une application qui sert à explorer le code du travail malgache."
       },
       "portfolio": {
-        "title": "Portfolio",
-        "description": "Ce site web où j'expose mon parcours, mes compétences ainsi que mes projets personnels et professionnels."
-      },
-      "taskmanager": {
-        "title": "Gestion des tâches",
-        "description": "Une simple application de gestion des tâches, utile pour apprendre les meilleures pratiques de Flutter."
+        "title": "Portfolio Flutter",
+        "description": "La version Flutter Web de mon portfolio, où j'expose mon parcours, mes compétences ainsi que mes projets personnels et professionnels."
       }
     }
   },
