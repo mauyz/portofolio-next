@@ -2,7 +2,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import type { IconType } from "react-icons";
 import { FaAppStoreIos, FaGithub, FaGooglePlay } from "react-icons/fa6";
-import { LuArrowUpRight, LuGlobe, LuSmartphone } from "react-icons/lu";
+import { LuArrowUpRight, LuClock, LuGlobe, LuSmartphone } from "react-icons/lu";
 import { contact } from "@/content/profile";
 import { projects, type ProjectLink } from "@/content/projects";
 import { Reveal } from "../reveal";
@@ -41,14 +41,14 @@ export function Projects() {
         </p>
       </Reveal>
 
-      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-6 md:grid-cols-2 lg:gap-8">
         {projects.map((project, i) => {
           const title = t(`items.${project.id}.title`);
           return (
             <Reveal
               as="article"
               key={project.id}
-              delay={i * 100}
+              delay={(i % 2) * 100}
               className="group flex flex-col overflow-hidden rounded-2xl border border-border bg-surface"
             >
               <div className="relative aspect-[5/4] overflow-hidden border-b border-border bg-white">
@@ -56,7 +56,8 @@ export function Projects() {
                   src={project.image}
                   alt={title}
                   fill
-                  sizes="(min-width: 1152px) 360px, (min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                  sizes="(min-width: 1152px) 544px, (min-width: 768px) 50vw, 100vw"
+                  quality={90}
                   className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03] motion-reduce:transition-none"
                 />
               </div>
@@ -91,6 +92,15 @@ export function Projects() {
                       );
                     })}
                   </div>
+                )}
+
+                {project.unreleased && (
+                  <p className="mt-auto pt-6">
+                    <span className="inline-flex h-9 items-center gap-2 rounded-full bg-accent-soft px-3.5 text-sm font-bold text-accent">
+                      <LuClock aria-hidden className="size-4" />
+                      {t("unreleased")}
+                    </span>
+                  </p>
                 )}
               </div>
             </Reveal>
