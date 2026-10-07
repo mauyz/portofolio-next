@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Moïse Tsiorinambinina — Ingénieur développeur",
-    "description": "Portfolio de Moïse Tsiorinambinina, ingénieur développeur et développeur d'applications mobiles (Flutter, Android SDK) basé à Antananarivo, Madagascar.",
+    "title": "Moïse Tsiorinambinina — Ingénieur développeur mobile",
+    "description": "Moïse Tsiorinambinina, ingénieur développeur basé à Madagascar : applications mobiles Flutter pour iOS et Android, connectées à des API REST et GraphQL sur mesure ou à Supabase et Firebase, développement assisté par l'IA.",
     "notFoundTitle": "Page introuvable"
   },
   "common": {
@@ -25,36 +25,42 @@
     "greeting": "Je m'appelle",
     "titles": [
       "Ingénieur développeur",
-      "Développeur d'applications mobiles",
-      "Passionné des technologies"
+      "Développeur mobile Flutter",
+      "Passionné de technologies"
     ],
+    "intro": "Je conçois des applications mobiles de bout en bout, de l'architecture à la publication sur les stores. L'IA m'assiste au quotidien ; les choix techniques et la qualité du code restent les miens.",
     "downloadCV": "Télécharger mon CV",
     "contactMe": "Me contacter"
   },
   "about": {
     "title": "Qui suis-je ?",
     "bio": [
-      "Développeur autodidacte et diplômé de l'Ecole Nationale d'Informatique de Fianarantsoa, Madagascar. Je possède une solide expérience dans la conception, le développement et la mise en production d'applications.",
-      "Au cours des quatre dernières années, j'ai acquis une solide expertise en programmation avec les langages Dart, TypeScript, Java et Kotlin. J'ai particulièrement travaillé sur le développement mobile en utilisant le framework Flutter ainsi que l'Android SDK.",
-      "Passionné par la programmation, je consacre régulièrement du temps à la veille technologique et à l'exploration de nouvelles technologies."
+      "Développeur autodidacte et ingénieur diplômé de l'École Nationale d'Informatique de Fianarantsoa, je conçois des applications mobiles de bout en bout : architecture, interface, connexion au back-end, puis publication sur l'App Store et le Play Store.",
+      "Je travaille principalement avec Flutter et Dart. Côté serveur, je connecte mes applications à des back-ends sur mesure via des API REST ou GraphQL, ou je mets en place Supabase et Firebase quand le projet s'y prête. Mon parcours m'a aussi amené à utiliser Java, Kotlin et l'Android SDK, ainsi que TypeScript et Next.js pour le web.",
+      "J'utilise l'IA comme un assistant : elle m'aide à explorer une piste, prototyper, écrire des tests ou de la documentation plus vite. L'architecture, les décisions techniques et la relecture du code restent sous ma responsabilité.",
+      "Curieux de nature, je consacre régulièrement du temps à la veille technologique et à l'exploration de nouveaux outils."
     ],
     "facts": {
       "location": "Basé à",
       "education": "Formation",
-      "languages": "Langages",
-      "mobile": "Mobile"
+      "focus": "Spécialité",
+      "focusValue": "Applications Flutter iOS et Android",
+      "backend": "Back-end",
+      "backendValue": "API REST et GraphQL, Supabase, Firebase",
+      "ai": "Méthode",
+      "aiValue": "Développement assisté par l'IA, code relu et maîtrisé"
     }
   },
   "career": {
     "title": "Parcours",
     "professional": "Professionnel",
     "professionalIntro": [
-      "Mon parcours professionnel en informatique est marqué par plusieurs expériences enrichissantes, tant au travers d'emplois que de stages. Celles-ci m'ont permis de développer des compétences solides dans ce domaine en constante évolution.",
-      "Voici quelques-unes des expériences professionnelles que j'ai acquises au cours de ces dernières années :"
+      "Du stage de développement Android à la conception complète d'applications publiées sur les stores, chaque expérience a élargi mon terrain de jeu : mobile, back-end et administration des systèmes.",
+      "Voici les principales étapes de mon parcours professionnel :"
     ],
     "academic": "Académique",
     "academicIntro": [
-      "Mon parcours académique en informatique a été marqué par des formations rigoureuses, notamment à l'Ecole Nationale d'Informatique (ENI) de Fianarantsoa. Avant cela, j'ai obtenu un baccalauréat scientifique, qui a posé les bases de mon intérêt pour les sciences et les technologies."
+      "Ma formation s'est construite à l'École Nationale d'Informatique (ENI) de Fianarantsoa, de la licence au master professionnel, après un baccalauréat scientifique qui a confirmé mon goût pour les sciences et la technologie."
     ],
     "since": "Depuis {date}",
     "contract": {
@@ -66,42 +72,46 @@
       "consulting": {
         "title": "Développeur consultant",
         "bullets": [
-          "Maintenance applicative",
-          "Développement des nouvelles fonctionnalités",
-          "Intégration des visuels en respectant les maquettes et l'expérience utilisateur",
-          "Conception et développement des API"
+          "Conception et développement d'applications mobiles Flutter, de l'architecture à la publication sur l'App Store et le Play Store",
+          "Intégration d'API REST sur mesure développées par les équipes back-end",
+          "Mise en place de back-ends Supabase et Firebase : modèle PostgreSQL, sécurité par RLS, Edge Functions et Cloud Functions",
+          "Intégration du paiement (Stripe, achats in-app), des notifications push et de fonctionnalités d'IA générative",
+          "Intégration des maquettes dans le respect de l'expérience utilisateur et back-offices avec Jet Admin",
+          "Maintenance et évolution des applications en production, avec intégration continue (GitLab CI) et tests automatisés",
+          "Développement assisté par l'IA, avec relecture et validation systématiques du code"
         ]
       },
       "neoshore": {
         "title": "Développeur Flutter",
         "bullets": [
-          "Concevoir avec l'équipe les nouvelles fonctionnalités de la plateforme",
-          "Implémenter les modifications en respectant les exigences techniques",
-          "Suivre les journaux des applications",
-          "Maintenir une expérience utilisateur de haute qualité",
-          "Améliorer les performances et corriger les bugs",
-          "Gérer le contenu et la publication des mises à jour sur Play Store et App Store"
+          "Conception des nouvelles fonctionnalités de la plateforme avec l'équipe",
+          "Implémentation des évolutions dans le respect des exigences techniques",
+          "Intégration de l'API GraphQL et des API REST de la plateforme",
+          "Suivi des journaux applicatifs pour détecter les problèmes au plus tôt",
+          "Amélioration des performances et correction des bugs",
+          "Maintien d'une expérience utilisateur de qualité",
+          "Gestion du contenu et de la publication des mises à jour sur le Play Store et l'App Store"
         ]
       },
       "androidFreelance": {
         "title": "Développeur d'applications Android",
         "bullets": [
-          "Conception et développement d'une application de gestion d'une clinique",
-          "Développement d'une application de rencontre pour la communauté comorienne et mahoraise"
+          "Conception et développement d'une application de gestion de clinique",
+          "Développement d'une application de rencontre pour les communautés comorienne et mahoraise"
         ]
       },
       "onnOlep": {
         "title": "Administrateur systèmes et réseaux",
         "bullets": [
-          "Administration et configuration des serveurs Linux et Windows",
-          "Automatisation des tâches récurrentes à l'aide de scripts Bash et Shell",
-          "Gestion d'un parc informatique contenant 120 postes de travail"
+          "Administration et configuration de serveurs Linux et Windows",
+          "Automatisation des tâches récurrentes avec des scripts Bash et Shell",
+          "Gestion d'un parc de 120 postes de travail"
         ]
       },
       "emaya": {
         "title": "Développeur d'applications Android",
         "bullets": [
-          "Développement d'une application pour la recherche des offres d'emploi"
+          "Développement d'une application Android de recherche d'offres d'emploi"
         ]
       }
     },
@@ -109,21 +119,21 @@
       "master": {
         "title": "Master professionnel",
         "bullets": [
-          "Formation approfondie en programmation web, mobile et desktop",
-          "Développement des compétences en programmation réseau",
-          "Administration avancée, sécurisation des systèmes et réseaux informatiques"
+          "Programmation web, mobile et desktop approfondie",
+          "Programmation réseau",
+          "Administration avancée et sécurisation des systèmes et réseaux"
         ]
       },
       "licence": {
         "title": "Licence professionnelle",
         "bullets": [
-          "Formation sur les bases de l'algorithmique et de la programmation",
-          "Formation sur l'administration des systèmes et réseaux informatiques",
+          "Bases de l'algorithmique et de la programmation",
+          "Administration des systèmes et réseaux informatiques",
           "Introduction aux bases de données relationnelles"
         ]
       },
       "bac": {
-        "title": "BAC série C",
+        "title": "Baccalauréat série C",
         "bullets": []
       }
     }
@@ -131,44 +141,68 @@
   "skills": {
     "title": "Compétences",
     "intro": [
-      "Tout au long de mon parcours, j'ai acquis et affiné un ensemble de compétences en développement informatique, couvrant divers langages, frameworks et outils.",
-      "Ces compétences me permettent de concevoir et de mettre en œuvre des solutions techniques adaptées aux besoins spécifiques de chaque projet."
+      "Mon cœur de métier est le mobile avec Flutter. Côté serveur, je travaille aussi bien avec des API REST et GraphQL sur mesure qu'avec Supabase et Firebase ; côté web, avec Next.js.",
+      "Je choisis les outils selon les besoins de chaque projet. L'IA m'accompagne comme un assistant pour aller plus vite, sans rien céder sur la qualité ni sur la compréhension du code livré."
     ],
     "categories": {
-      "languages": "Langages de programmation",
-      "frameworks": "Frameworks",
+      "languages": "Langages",
+      "frameworks": "Frameworks et librairies",
       "databases": "Bases de données",
-      "tools": "Outils et API"
+      "backend": "API et back-end",
+      "integrations": "Services intégrés",
+      "tools": "Outils et CI/CD",
+      "ai": "Intelligence artificielle"
     }
   },
   "projects": {
     "title": "Projets",
     "intro": [
-      "Je suis heureux de vous présenter une sélection de mes projets de développement récents.",
-      "Chacun de ces projets a été réalisé avec diverses technologies et compétences, visant à résoudre une variété de problématiques."
+      "Une sélection d'applications sur lesquelles j'ai travaillé, des projets clients publiés sur les stores à mes projets personnels.",
+      "Pour chacune : ce qu'elle fait, les principales technologies utilisées et les liens pour l'essayer."
     ],
-    "githubIntro": "Je vous invite aussi à explorer mon ",
+    "githubIntro": "Vous pouvez aussi parcourir mon ",
     "githubLink": "GitHub",
-    "githubEnd": ", où je partage des projets et des codes open source.",
+    "githubEnd": ", où je partage des projets et du code open source.",
     "viewOn": "Voir sur",
+    "unreleased": "Pas encore publiée",
     "items": {
+      "soren": {
+        "title": "Soren",
+        "description": "Assistant de suivi commercial pour les agents immobiliers : SMS et e-mails rédigés à partir de modèles, cycles de relance et rappel quotidien. Rien n'est jamais envoyé automatiquement."
+      },
+      "cuecha": {
+        "title": "Cuecha",
+        "description": "Approvisionnement pour les restaurateurs : fiches recettes avec calcul des coûts, commandes regroupées par fournisseur, paiement Stripe et export PDF, le tout connecté à une API REST sur mesure."
+      },
+      "enijay": {
+        "title": "Enijay",
+        "description": "Rencontrer des gens autour d'activités réelles : découverte d'activités, création d'événements, demandes de participation et chat de groupe en temps réel."
+      },
+      "kidywin": {
+        "title": "Kidywin",
+        "description": "Le guide des sorties en famille : recherche géolocalisée d'activités pour enfants, filtres, carte et favoris disponibles hors ligne."
+      },
+      "intimist": {
+        "title": "Intimist",
+        "description": "Jeu de conversation pour couples : des questions personnalisées, générées par IA à partir du profil des partenaires, avec abonnements in-app."
+      },
       "quadient": {
         "title": "Quadient Scan",
-        "description": "Application mobile permettant de collecter des informations sur les entreprises."
+        "description": "Application mobile de collecte d'informations sur les entreprises."
       },
       "workcode": {
         "title": "Contrat du travail Malagasy",
-        "description": "Une application qui sert à explorer le code du travail malgache."
+        "description": "Consulter facilement le code du travail malgache depuis son téléphone."
       },
       "portfolio": {
         "title": "Portfolio Flutter",
-        "description": "La version Flutter Web de mon portfolio, où j'expose mon parcours, mes compétences ainsi que mes projets personnels et professionnels."
+        "description": "La version Flutter Web de mon portfolio, qui présente mon parcours, mes compétences et mes projets."
       }
     }
   },
   "contact": {
     "title": "Construisons de belles choses !",
-    "text": "Si vous voulez qu'on travaille ensemble, n'hésitez pas à me contacter.",
+    "text": "Une application mobile à créer, un back-end à mettre en place ou une app existante à faire évoluer ? Parlons-en.",
     "email": "E-mail",
     "chat": "Chat",
     "call": "Appeler",

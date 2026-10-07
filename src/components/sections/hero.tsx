@@ -38,8 +38,11 @@ export function Hero() {
           </Reveal>
 
           <Reveal delay={120}>
-            <p className="mt-8 min-h-[2lh] text-2xl leading-tight font-bold text-accent sm:min-h-[1lh] md:text-3xl">
+            <p className="mt-8 min-h-[1lh] text-2xl leading-tight font-bold text-accent md:text-3xl">
               <RotatingTitles titles={t.raw("titles") as string[]} />
+            </p>
+            <p className="mt-4 max-w-xl text-lg leading-relaxed text-pretty text-muted md:text-xl">
+              {t("intro")}
             </p>
           </Reveal>
 

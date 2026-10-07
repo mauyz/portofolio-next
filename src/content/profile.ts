@@ -4,7 +4,7 @@ export const profile = {
   firstName: "Moïse",
   lastName: "Tsiorinambinina",
   photo: "/images/moise.jpg",
-  location: "Antananarivo, Madagascar",
+  location: "Madagascar",
   // Le CV diffère selon la langue.
   cv: {
     fr: "https://drive.google.com/file/d/1p7o2lF3p7SPBT6XIhu0Aee1LxOnd5Kbb/view?usp=sharing",

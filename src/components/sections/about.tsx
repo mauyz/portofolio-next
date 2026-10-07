@@ -11,15 +11,16 @@ export function About() {
   const [first, ...rest] = t.raw("bio") as string[];
   const master = education[0];
 
-  // Repères tirés des sources (bio, formation, localisation) : rien d'inventé.
+  // Repères tirés des sources (bio, formation, projets) : rien d'inventé.
   const facts = [
     { label: t("facts.location"), value: profile.location },
     {
       label: t("facts.education"),
       value: `${tCareer(`education.${master.id}.title`)} · ENI ${master.location}`,
     },
-    { label: t("facts.languages"), value: "Dart, TypeScript, Java, Kotlin" },
-    { label: t("facts.mobile"), value: "Flutter, Android SDK" },
+    { label: t("facts.focus"), value: t("facts.focusValue") },
+    { label: t("facts.backend"), value: t("facts.backendValue") },
+    { label: t("facts.ai"), value: t("facts.aiValue") },
   ];
 
   return (
