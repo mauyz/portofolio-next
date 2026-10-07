@@ -7,8 +7,8 @@ export const profile = {
   location: "Madagascar",
   // Le CV diffère selon la langue.
   cv: {
-    fr: "https://drive.google.com/file/d/1p7o2lF3p7SPBT6XIhu0Aee1LxOnd5Kbb/view?usp=sharing",
-    en: "https://drive.google.com/file/d/1GqmEcq5uKQxB2VxhU4liRW00L8LmGFKi/view?usp=sharing",
+    fr: "https://drive.google.com/file/d/1UftfOyznclp3W27f1dnUihO5XsXQ2V0m/view?usp=drive_link",
+    en: "https://drive.google.com/file/d/1yW9ckvB-ck4kWOLg5YZSKwnxqaFptTPN/view?usp=drive_link",
   } satisfies Record<Locale, string>,
 };
 
